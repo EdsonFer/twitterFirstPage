@@ -1,0 +1,39 @@
+.container {
+	display: grid;
+	grid-template-rows: 70px 300px 70px auto;
+	grid-template-areas:
+		'header header header'
+		'banner banner banner'
+		'listMenu listMenu listMenu'
+		'content content content';
+
+	.header {
+		background: var(--white);
+		grid-area: header;
+	}
+
+	.banner {
+		background: var(--blue);
+		grid-area: banner;
+	}
+
+	.listMenu {
+		background: var(--white);
+		grid-area: listMenu;
+	}
+
+	.content {
+		display: grid;
+		grid-template-columns: 200px auto 200px;
+		background: orangered;
+		grid-area: content;
+
+		.perfil {
+			background: #000;
+		}
+
+		.rightMenu {
+			background: blue;
+		}
+	}
+}

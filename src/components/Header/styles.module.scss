@@ -1,0 +1,70 @@
+.header {
+	max-width: 1100px;
+	margin: 0 auto;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100%;
+
+	.leftMenu {
+		flex: 1;
+
+		display: flex;
+		align-items: center;
+
+		a {
+			margin: 0 1rem 0 0.5rem;
+			font-weight: 600;
+			opacity: 0.6;
+
+			text-decoration: none;
+			color: #000;
+		}
+	}
+
+	.twitter {
+		flex: 1;
+	}
+
+	.rightMenu {
+		flex: 1;
+
+		display: flex;
+		align-items: center;
+		justify-content: space-evenly;
+
+		.search {
+			position: relative;
+
+			.inputSearch {
+				border-radius: 0.875rem;
+				padding: 0.7rem 1.5rem 0.7rem 0.7rem;
+				outline: none;
+				border: 1px solid #ccc;
+				background-color: var(--white);
+			}
+
+			.iconSearch {
+				position: absolute;
+				top: 0.7rem;
+				right: 0.5rem;
+				color: #000;
+			}
+		}
+
+		.avatar {
+			border-radius: 50%;
+		}
+
+		.button {
+			padding: 0.6rem 1.5rem;
+			border-radius: 1rem;
+			border: none;
+			background: var(--blue);
+
+			color: #fff;
+			font-weight: 600;
+		}
+	}
+}
