@@ -1,0 +1,52 @@
+.container {
+	max-width: 560px;
+	background: #fff;
+
+	.menu {
+		ul {
+			margin-top: 0.7rem;
+			list-style: none;
+			display: flex;
+
+			li {
+				margin-left: 0.7rem;
+				font-weight: 600;
+				font-size: 1.3rem;
+				cursor: pointer;
+				color: var(--blue);
+			}
+
+			.active {
+				color: #000;
+			}
+		}
+	}
+
+	.post {
+		display: flex;
+		align-items: center;
+		margin: 3rem 1rem;
+
+		.avatar {
+			margin-right: 1rem;
+			height: 50px;
+			width: 50px;
+			border-radius: 50%;
+		}
+
+		strong {
+			margin-left: 1rem;
+
+			span {
+				opacity: 0.6;
+				font-weight: lighter;
+			}
+
+			p {
+				margin-top: 1rem;
+				opacity: 0.8;
+				font-weight: 400;
+			}
+		}
+	}
+}

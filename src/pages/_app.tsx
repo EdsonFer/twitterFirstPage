@@ -4,6 +4,7 @@ import { Header } from '../components/Header';
 import { Banner } from '../components/Banner';
 import { Follows } from '../components/Follows';
 import { Perfil } from '../components/Perfil';
+import { RightMenu } from '../components/RightMenu';
 
 function MyApp({ Component, pageProps }) {
 	return (
@@ -27,7 +28,9 @@ function MyApp({ Component, pageProps }) {
 
 				<Component {...pageProps} />
 
-				<div className={styles.rightMenu}></div>
+				<div className={styles.rightMenu}>
+					<RightMenu />
+				</div>
 			</div>
 		</div>
 	);
