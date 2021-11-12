@@ -9,8 +9,12 @@
 Trabalho feito para praticar as habilidades em CSS
 
 <p align="center">
-  <img src="https://i.ibb.co/N6QwQPY/tweet.png" alt="tweet" border="0">
+  <img src="https://uploaddeimagens.com.br/images/003/535/189/original/tweet.PNG?1636750151" alt="tweet" border="0" width="100%">
 </p>
+
+## 👨🏻‍💻 Projeto
+
+<a href="https://twitternext.vercel.app/" target="_blank" alt="twitter">Twitter</a>
 
 ## ✨ Tecnologias
 
