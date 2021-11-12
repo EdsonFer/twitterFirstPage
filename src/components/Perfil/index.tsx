@@ -21,7 +21,7 @@ export function Perfil() {
 			<span className={styles.tag}>@edfer</span>
 
 			<p>
-				Web, Design & Rock 'n Roll Partner/UI Designer <span>@spade_be </span>
+				Web, Design & Rock n Roll Partner/UI Designer <span>@spade_be </span>
 				Musician in <span>@dashboxmusic</span>
 			</p>
 			<br />
