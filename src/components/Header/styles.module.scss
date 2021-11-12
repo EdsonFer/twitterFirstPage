@@ -9,11 +9,11 @@
 
 	.leftMenu {
 		flex: 1;
-
 		display: flex;
-		align-items: center;
 
 		a {
+			display: flex;
+			align-items: center;
 			margin: 0 1rem 0 0.5rem;
 			font-weight: 600;
 			opacity: 0.6;

@@ -18,22 +18,25 @@
 	}
 
 	.listMenu {
-		background: var(--white);
+		background: #fff;
 		grid-area: listMenu;
 	}
 
 	.content {
 		display: grid;
-		grid-template-columns: 200px auto 200px;
+		grid-template-columns: 260px 580px 260px;
 		background: orangered;
 		grid-area: content;
 
+		max-width: 1100px;
+		margin: 0 auto;
+
 		.perfil {
-			background: #000;
+			background: var(--white);
 		}
 
 		.rightMenu {
-			background: blue;
+			background: var(--blue);
 		}
 	}
 }

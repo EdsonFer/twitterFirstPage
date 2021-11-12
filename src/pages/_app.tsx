@@ -3,6 +3,7 @@ import styles from '../styles/app.module.scss';
 import { Header } from '../components/Header';
 import { Banner } from '../components/Banner';
 import { Follows } from '../components/Follows';
+import { Perfil } from '../components/Perfil';
 
 function MyApp({ Component, pageProps }) {
 	return (
@@ -20,7 +21,9 @@ function MyApp({ Component, pageProps }) {
 			</div>
 
 			<div className={styles.content}>
-				<div className={styles.perfil}></div>
+				<div className={styles.perfil}>
+					<Perfil />
+				</div>
 
 				<Component {...pageProps} />
 

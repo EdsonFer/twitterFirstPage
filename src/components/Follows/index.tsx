@@ -4,7 +4,7 @@ import { CgMoreVertical } from 'react-icons/cg';
 export function Follows() {
 	return (
 		<div className={styles.container}>
-			<ul className={styles.listMenu}>
+			<ul>
 				<li>
 					<a href="#">Tweets</a>
 					<label className={styles.active}>3931</label>
